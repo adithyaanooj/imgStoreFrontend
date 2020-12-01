@@ -54,8 +54,7 @@ function Navigation() {
           <PhotoLibraryIcon fontSize={"large"} /> 7 Chan{" "}
         </NavbarBrand>{" "}
         <NavbarToggler
-          onMouseEnter={toggle}
-          onMouseLeave={toggle}
+          onClick={toggle}
           style={{
             backgroundColor: "white",
           }}
